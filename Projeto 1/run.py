@@ -8,9 +8,3 @@ app = create_app() # Cria a aplicação chamando a factory
 # reiniciar o servidor a cada alteração
 if __name__ == 'main':
     app.run(debug=True)
-
-# python -m venv venv
-# pip install flask
-# .\venv\Scripts\activate
-# $env:FLASK_APP="run.py"
-# flask run
